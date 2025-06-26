@@ -403,7 +403,7 @@ const ResFreqAnalyzer = () => {
       {/* Hidden persistent audio element */}
       <audio
         ref={audioRef}
-        src={"/Audio/McCutcheon's Resonant Frequency Jewelry, Bioactive Wellness & EMF Buffering.wav"}
+        src={"/Audio/podcast.wav"}
         preload="metadata"
         style={{ display: 'none' }}
       />
