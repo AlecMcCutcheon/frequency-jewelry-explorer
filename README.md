@@ -1,4 +1,4 @@
-# Resonant Frequency Bio-Interaction Science
+# The Science & Potential Benefits of Resonant Frequency Jewelry
 
 A React application that explores the potential biological interaction mechanisms of McCutcheon's jewelry technology.
 
