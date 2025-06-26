@@ -226,8 +226,8 @@ const ResFreqAnalyzer = () => {
       type: 'info'
     },
     {
-      question: 'How long does the frequency last in materials?',
-      answer: "The embedded resonance is described as 'semi-permanent.' It should last for extended periods, potentially years, depending on the material type, environmental factors, and how the jewelry is handled. The process is designed to ensure long-lasting frequency retention, but the exact duration and stability have not been fully quantified in published studies. Over time, factors such as wear, exposure to strong electromagnetic fields, or physical damage could potentially diminish the resonance. The jewelry's ability to transfer its frequency to other materials, including water, is a unique property that may also persist for extended periods, but more research is needed to determine the precise longevity of these effects.",
+      question: 'How long does the jewelry\'s frequency last, and can it lose its effect over time?',
+      answer: 'The embedded resonance is described as "semi-permanent" and should last for years, depending on material, handling, and environment. Over time, wear, strong electromagnetic fields, or physical damage could diminish the effect. The jewelry\'s ability to transfer its frequency to other materials, including water, may also persist for extended periods, but more research is needed to determine the precise longevity.',
       icon: InfoIcon,
       type: 'info'
     },
@@ -245,14 +245,8 @@ const ResFreqAnalyzer = () => {
     },
     {
       question: 'Can the jewelry help with EMF exposure?',
-      answer: "The jewelry is designed to provide a stable frequency environment near the body, which may help buffer or mitigate the disruptive effects of ambient electromagnetic fields (EMFs) from sources like WiFi, cell phones, and power lines. Some studies suggest that protective resonant fields can reverse EMF-induced disruptions in heart rate variability and stress markers. While the jewelry's passive field is much weaker than those produced by electronic devices, it may offer a stabilizing reference for the body's electrical systems. More research is needed to confirm the extent of this protective effect in real-world settings.",
+      answer: 'The jewelry is designed to provide a stable frequency environment near the body, which may help buffer or mitigate the disruptive effects of ambient electromagnetic fields (EMFs) from sources like WiFi, cell phones, and power lines. Some studies suggest that protective resonant fields can reverse EMF-induced disruptions in heart rate variability and stress markers. While the jewelry\'s passive field is much weaker than those produced by electronic devices, it may offer a stabilizing reference for the body\'s electrical systems. More research is needed to confirm the extent of this protective effect in real-world settings.',
       icon: Shield,
-      type: 'info'
-    },
-    {
-      question: 'What future research is needed?',
-      answer: 'Further controlled, independent research is needed to fully validate the efficacy and safety of McCutcheon\'s jewelry. This includes clinical trials measuring balance metrics, HRV, EEG, and biochemical markers after exposure to frequency-infused materials. Long-term studies should also assess the durability of the embedded frequency and its effects over time. Collaboration with academic institutions and publication in peer-reviewed journals will be crucial for establishing scientific credibility and understanding the full range of potential benefits and limitations.',
-      icon: InfoIcon,
       type: 'info'
     },
     {
@@ -262,57 +256,9 @@ const ResFreqAnalyzer = () => {
       type: 'info'
     },
     {
-      question: 'How does the jewelry interact with water in the body?',
-      answer: 'Research suggests that passive magnetic fields and resonant frequencies can alter water\'s molecular structure, hydrogen bonding, and cluster formation. The jewelry may "imprint" its frequency onto water, potentially allowing the frequency to be carried internally and influence physiological rhythms. This process, sometimes called water structuring, is thought to enhance water\'s ability to support cellular communication and energy transfer. While the biological significance of consuming such structured water is still under investigation, it is a promising area of research for understanding how frequency-based technologies might exert systemic effects.',
-      icon: Droplets,
-      type: 'info'
-    },
-    {
       question: 'What is "structured water" and why is it important?',
       answer: 'Structured water refers to water with a more ordered molecular arrangement, such as hexagonal or Exclusion Zone (EZ) water. These forms are thought to be more responsive to electromagnetic fields and may play a role in cellular communication, energy transfer, and the propagation of bioelectric signals within the body. Structured water is believed to facilitate more efficient hydration, nutrient transport, and waste removal at the cellular level. The ability of the jewelry to influence water structure could therefore have wide-ranging implications for health and wellness, although more research is needed to fully understand these effects.',
       icon: Droplets,
-      type: 'info'
-    },
-    {
-      question: 'How does the jewelry interact with the body\'s biofield?',
-      answer: 'The jewelry is theorized to act as a bioactive stimulus, subtly interacting with the wearer\'s biofield through electromagnetic resonance. This may help synchronize physiological rhythms, support autonomic balance, and promote overall well-being. The exact mechanisms are still being explored, but the concept is supported by emerging research in bioelectromagnetics and biophysics.',
-      icon: Brain,
-      type: 'info'
-    },
-    {
-      question: 'What are the main scientific limitations and open questions?',
-      answer: 'While the mechanisms are plausible and supported by analogous research, direct, peer-reviewed clinical trials on this specific jewelry are still needed. The field faces challenges in reproducibility, standardization, and understanding the full range of biological effects. Ongoing research is essential to establish efficacy, safety, and best practices for frequency-based wellness technologies.',
-      icon: AlertTriangle,
-      type: 'caution'
-    },
-    {
-      question: 'Can the jewelry be used with other wellness modalities?',
-      answer: 'There are no known contraindications for combining the jewelry with other wellness practices such as meditation, grounding, or PEMF therapy. In fact, some users may find synergistic benefits from integrating multiple approaches. However, always consult a healthcare professional for personalized advice, especially if you have underlying health conditions or are using medical devices.',
-      icon: CheckCircle,
-      type: 'info'
-    },
-    {
-      question: 'How long does it take to notice effects from the jewelry?',
-      answer: 'Individual responses vary. Some users report immediate subtle sensations, such as increased calm or focus, while others may notice benefits over days or weeks of consistent use. The jewelry is designed for gentle, ongoing support, and effects may accumulate gradually. For best results, wear the jewelry regularly and pay attention to subtle changes in well-being.',
-      icon: InfoIcon,
-      type: 'info'
-    },
-    {
-      question: 'How long does the jewelry\'s frequency last, and can it lose its effect over time?',
-      answer: "The embedded resonance is described as 'semi-permanent.' It should last for extended periods, potentially years, depending on the material type, handling, and environmental exposure. The process is designed to ensure long-lasting frequency retention, but the exact duration and stability have not been fully quantified in published studies. Over time, factors such as wear, exposure to strong electromagnetic fields, or physical damage could potentially diminish the resonance. To maximize longevity, avoid exposing the jewelry to strong electromagnetic fields, extreme temperatures, or physical damage. The jewelry's ability to transfer its frequency to other materials, including water, is a unique property that may also persist for extended periods, but more research is needed to determine the precise longevity of these effects.",
-      icon: InfoIcon,
-      type: 'info'
-    },
-    {
-      question: 'What is the significance of frequency specificity?',
-      answer: 'Biological effects of electromagnetic fields are highly frequency-specific, meaning that only certain frequencies will interact with particular biological systems or processes. The jewelry is designed to emit precise frequencies that may target specific physiological responses, similar to how Schumann Resonance or PEMF therapy works. This specificity is crucial for safety and efficacy, as the wrong frequency could have no effect or even unintended consequences. Frequency-specific effects are a key area of research in bioelectromagnetics and underpin the rationale for frequency-embedded wellness technologies.',
-      icon: Activity,
-      type: 'info'
-    },
-    {
-      question: 'Can the jewelry influence protein function or gene expression?',
-      answer: 'Recent research shows that weak magnetic fields can induce conformational changes in proteins, such as the electromagnetic perceptive gene (EPG) protein, and may influence gene expression by altering cellular signaling pathways. While direct evidence for the jewelry\'s effects on protein function or gene expression is still pending, these mechanisms provide a plausible scientific basis for its potential impact. Such effects could support cellular homeostasis, DNA synthesis, and energy balance, contributing to the jewelry\'s overall wellness claims.',
-      icon: Zap,
       type: 'info'
     },
     {
@@ -322,21 +268,9 @@ const ResFreqAnalyzer = () => {
       type: 'caution'
     },
     {
-      question: 'How does the jewelry compare to PEMF and Bioresonance Therapy?',
-      answer: 'PEMF (Pulsed Electromagnetic Field) and Bioresonance Therapy are established modalities using electromagnetic fields for therapeutic benefit. PEMF is often used in clinical settings and delivers pulsed fields for acute or chronic conditions, while Bioresonance Therapy processes the body\'s electromagnetic information to support health. The jewelry is passive, wearable, and continuous, providing a steady frequency exposure throughout the day. All rely on frequency-specific effects, but the jewelry is unique in its portability, passive design, and focus on gentle, ongoing support rather than acute intervention.',
-      icon: Activity,
-      type: 'info'
-    },
-    {
       question: 'Can the jewelry help with pain, inflammation, or tissue regeneration?',
       answer: 'While direct clinical evidence for the jewelry is pending, analogous technologies like PEMF have shown benefits for pain, inflammation, and tissue healing in peer-reviewed studies. The jewelry\'s mechanisms are theoretically similar, involving the modulation of cellular signaling, reduction of oxidative stress, and support for tissue repair. However, more research is needed to confirm these effects specifically for the jewelry, and it should not be considered a substitute for medical treatment.',
       icon: CheckCircle,
-      type: 'info'
-    },
-    {
-      question: 'What is "cellular upregulation" and could the jewelry promote it?',
-      answer: 'Cellular upregulation refers to enhanced cellular function, activity, or regeneration in response to specific stimuli. Research suggests that structured water and resonant frequencies can support cellular upregulation by facilitating energy transfer, improving nutrient absorption, and promoting tissue repair. The jewelry may contribute to these effects by providing a stable, supportive frequency environment, but more research is needed to fully understand its impact on cellular processes.',
-      icon: Zap,
       type: 'info'
     },
     {
@@ -349,36 +283,6 @@ const ResFreqAnalyzer = () => {
       question: 'Can the jewelry affect mental clarity or emotional balance?',
       answer: 'Theoretically, by supporting autonomic balance and brainwave coherence, the jewelry may help with mental clarity, emotional regulation, and stress resilience. This is based on research into biofield effects, resonance with brain rhythms, and the observed benefits of analogous technologies like neurofeedback and Schumann Resonance exposure. Individual experiences may vary, and more research is needed to quantify these effects.',
       icon: Brain,
-      type: 'info'
-    },
-    {
-      question: 'How does the jewelry interact with the body\'s biofield?',
-      answer: 'The jewelry is theorized to act as a bioactive stimulus, subtly interacting with the wearer\'s biofield through electromagnetic resonance. This may help synchronize physiological rhythms, support autonomic balance, and promote overall well-being. The exact mechanisms are still being explored, but the concept is supported by emerging research in bioelectromagnetics and biophysics.',
-      icon: Brain,
-      type: 'info'
-    },
-    {
-      question: 'What are the main scientific limitations and open questions?',
-      answer: 'While the mechanisms are plausible and supported by analogous research, direct, peer-reviewed clinical trials on this specific jewelry are still needed. The field faces challenges in reproducibility, standardization, and understanding the full range of biological effects. Ongoing research is essential to establish efficacy, safety, and best practices for frequency-based wellness technologies.',
-      icon: AlertTriangle,
-      type: 'caution'
-    },
-    {
-      question: 'Can the jewelry be used with other wellness modalities?',
-      answer: 'There are no known contraindications for combining the jewelry with other wellness practices such as meditation, grounding, or PEMF therapy. In fact, some users may find synergistic benefits from integrating multiple approaches. However, always consult a healthcare professional for personalized advice, especially if you have underlying health conditions or are using medical devices.',
-      icon: CheckCircle,
-      type: 'info'
-    },
-    {
-      question: 'How long does it take to notice effects from the jewelry?',
-      answer: 'Individual responses vary. Some users report immediate subtle sensations, such as increased calm or focus, while others may notice benefits over days or weeks of consistent use. The jewelry is designed for gentle, ongoing support, and effects may accumulate gradually. For best results, wear the jewelry regularly and pay attention to subtle changes in well-being.',
-      icon: InfoIcon,
-      type: 'info'
-    },
-    {
-      question: 'How long does the jewelry\'s frequency last, and can it lose its effect over time?',
-      answer: "The embedded resonance is described as 'semi-permanent.' It should last for extended periods, potentially years, depending on the material type, handling, and environmental exposure. The process is designed to ensure long-lasting frequency retention, but the exact duration and stability have not been fully quantified in published studies. Over time, factors such as wear, exposure to strong electromagnetic fields, or physical damage could potentially diminish the resonance. To maximize longevity, avoid exposing the jewelry to strong electromagnetic fields, extreme temperatures, or physical damage. The jewelry's ability to transfer its frequency to other materials, including water, is a unique property that may also persist for extended periods, but more research is needed to determine the precise longevity of these effects.",
-      icon: InfoIcon,
       type: 'info'
     }
   ];
@@ -409,16 +313,18 @@ const ResFreqAnalyzer = () => {
       />
       <div className="container mx-auto px-4 py-8 relative">
         {/* Dark mode toggle */}
-        <button
-          className="absolute top-4 right-4 flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors shadow"
-          aria-label="Toggle dark mode"
-          onClick={() => setDarkMode((prev) => !prev)}
-        >
-          {darkMode ? <Moon className="w-5 h-5 text-yellow-300" /> : <Sun className="w-5 h-5 text-yellow-500" />}
-          <span className="text-sm font-medium text-gray-700 dark:text-gray-200">{darkMode ? 'Dark' : 'Light'} Mode</span>
-        </button>
+        <div className="flex flex-col-reverse items-center sm:block">
+          <button
+            className="sm:absolute sm:top-4 sm:right-4 mt-4 sm:mt-0 flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors shadow"
+            aria-label="Toggle dark mode"
+            onClick={() => setDarkMode((prev) => !prev)}
+          >
+            {darkMode ? <Moon className="w-5 h-5 text-yellow-300" /> : <Sun className="w-5 h-5 text-yellow-500" />}
+            <span className="text-sm font-medium text-gray-700 dark:text-gray-200">{darkMode ? 'Dark' : 'Light'} Mode</span>
+          </button>
+        </div>
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-4 max-w-2xl mx-auto">
+          <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-4 max-w-2xl mx-auto mt-8">
             The Science & Potential Benefits of Resonant Frequency Jewelry
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-prose mx-auto">
@@ -612,7 +518,8 @@ const ResFreqAnalyzer = () => {
 
         {activeSection === 'mechanisms' && (
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl font-bold text-center mb-8 text-gray-800 dark:text-gray-100">Biological Interaction Mechanisms</h2>
+            <h2 className="text-2xl font-bold text-center mb-2 text-gray-800 dark:text-gray-100">Biological Interaction Mechanisms</h2>
+            <p className="text-center text-gray-600 dark:text-gray-300 mb-8 text-base">Click on each mechanism below to expand and learn more.</p>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
               {mechanisms.map((mechanism) => {
                 const IconComponent = mechanism.icon;
