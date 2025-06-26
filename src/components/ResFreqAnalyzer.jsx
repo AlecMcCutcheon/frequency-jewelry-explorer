@@ -330,10 +330,10 @@ const ResFreqAnalyzer = () => {
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-prose mx-auto">
             Explore how McCutcheon's jewelry technology might interact with your body's natural systems
           </p>
-          <div className="mt-4 p-4 bg-yellow-50 dark:bg-yellow-900/40 border border-yellow-200 dark:border-yellow-700 rounded-lg max-w-4xl mx-auto">
-            <p className="text-sm text-yellow-800 dark:text-yellow-200">
-              <strong>Important:</strong> This analysis explores plausible mechanisms based on existing research. 
-              While in-house studies show promise, peer-reviewed clinical trials are needed for full scientific validation.
+          <div className="mt-4 p-4 bg-yellow-50 border border-yellow-200 rounded-lg max-w-4xl mx-auto dark:bg-gray-900/60 dark:border-gray-800">
+            <p className="text-sm text-yellow-800 dark:text-gray-300">
+              <strong className="text-yellow-800 dark:text-gray-300">Note:</strong> This analysis explores plausible mechanisms based on existing research. While in-house studies show promise, peer-reviewed clinical trials are needed for full scientific validation. <br className="hidden sm:block" />
+              <span className="block mt-2">This is an independent research report on the science and mechanisms behind resonant frequency jewelry. The author is not sponsored or paid by McCutcheon's Health Products, nor are there any legal ties to the company—only genuine support for their work.</span>
             </p>
           </div>
         </div>
@@ -375,20 +375,64 @@ const ResFreqAnalyzer = () => {
 
         {activeSection === 'shop' && (
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100">Explore Resonant Frequency Jewelry</h2>
-            <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8 mb-8 transition-colors">
-              <p className="text-lg text-gray-700 dark:text-gray-200 mb-4">
-                McCutcheon's Health Products is a family-owned company dedicated to helping people experience greater well-being and relief through the power of magnetic and resonant frequency jewelry. Their unique pieces are crafted with care and feature one of four proprietary resonant frequencies, designed to help balance and support your body's natural energy.
+            <div className="flex flex-col items-center mb-6">
+              <span className="inline-block bg-gradient-to-r from-purple-600 to-blue-500 text-white px-5 py-2 rounded-full text-lg font-extrabold shadow-lg border-2 border-purple-700 dark:border-purple-400 tracking-wide mb-4" style={{textShadow: '0 1px 4px rgba(0,0,0,0.10)'}}>Explore Resonant Frequency Jewelry</span>
+              <h2 className="text-2xl font-bold text-center text-gray-800 dark:text-gray-100">McCutcheon's Health Products</h2>
+            </div>
+            <div className="bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900 border border-blue-200 dark:border-blue-700 rounded-xl shadow-lg p-8 mb-8 transition-colors">
+              <p className="text-lg text-gray-700 dark:text-gray-200 mb-4 font-medium flex items-center gap-2">
+                <span role="img" aria-label="family">👨‍👩‍👧‍👦</span>
+                <span>McCutcheon's Health Products is a family-owned company with a heartfelt mission: to help people experience greater well-being, comfort, and relief through the power of magnetic and resonant frequency jewelry. With years of experience and a passion for holistic wellness, they offer a personal touch and genuine care for every customer.</span>
               </p>
-              <p className="text-gray-700 dark:text-gray-300 mb-4">
-                Whether you're interested in bracelets, necklaces, anklets, or wellness accessories for sleep, pets, or your home, you can explore their full range of options online. Each product is designed to help protect you from the effects of modern environmental stressors and support a more balanced, energized life.
+              <p className="text-gray-700 dark:text-gray-300 mb-8 flex items-center gap-2">
+                <span role="img" aria-label="sparkle">✨</span>
+                <span>Each jewelry piece is carefully chosen and is embedded with <strong>one of four proprietary resonant frequencies</strong>—designed to help balance your body's natural energy, support resilience to modern stressors, and promote a sense of harmony and vitality. Whether you're seeking relief, better sleep, or simply a boost in daily energy, these frequency-embedded pieces are intended to support your well-being every day.</span>
               </p>
-              <p className="text-gray-700 dark:text-gray-300 mb-4">
-                <strong>Want to learn more or place an order?</strong> Visit their website at <a href="https://www.mccutcheonshealthproducts.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">mccutcheonshealthproducts.com</a> or call <a href="tel:2074854414" className="text-blue-600 dark:text-blue-400 underline">(207) 485-4414</a> for details about their jewelry and the four unique frequencies available.
+              <div className="mb-4 flex flex-wrap gap-3">
+                <span className="inline-flex items-center bg-blue-100 dark:bg-blue-900/40 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-semibold"><span role="img" aria-label="bracelet">🧿</span> Bracelets</span>
+                <span className="inline-flex items-center bg-purple-100 dark:bg-purple-900/40 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-sm font-semibold"><span role="img" aria-label="necklace">📿</span> Necklaces</span>
+                <span className="inline-flex items-center bg-green-100 dark:bg-green-900/40 text-green-800 dark:text-green-200 px-3 py-1 rounded-full text-sm font-semibold"><span role="img" aria-label="anklet">🦶</span> Anklets</span>
+                <span className="inline-flex items-center bg-cyan-100 dark:bg-cyan-900/40 text-cyan-800 dark:text-cyan-200 px-3 py-1 rounded-full text-sm font-semibold"><span role="img" aria-label="upper body">💪</span> Upper Body</span>
+                <span className="inline-flex items-center bg-teal-100 dark:bg-teal-900/40 text-teal-800 dark:text-teal-200 px-3 py-1 rounded-full text-sm font-semibold"><span role="img" aria-label="lower body">🦵</span> Lower Body</span>
+                <span className="inline-flex items-center bg-yellow-100 dark:bg-yellow-900/40 text-yellow-800 dark:text-yellow-200 px-3 py-1 rounded-full text-sm font-semibold"><span role="img" aria-label="sleep">🛏️</span> Sleep & Wellness</span>
+                <span className="inline-flex items-center bg-indigo-100 dark:bg-indigo-900/40 text-indigo-800 dark:text-indigo-200 px-3 py-1 rounded-full text-sm font-semibold"><span role="img" aria-label="sleep band">😴</span> Sleep Bands</span>
+                <span className="inline-flex items-center bg-pink-100 dark:bg-pink-900/40 text-pink-800 dark:text-pink-200 px-3 py-1 rounded-full text-sm font-semibold"><span role="img" aria-label="pet">🐾</span> Pet Pads & Seat Cushions</span>
+                <span className="inline-flex items-center bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-full text-sm font-semibold"><span role="img" aria-label="home">🏠</span> Home & Car</span>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4 mt-6 mb-2 items-center justify-center">
+                <a href="https://www.mccutcheonshealthproducts.com/" target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-lg bg-blue-600 text-white dark:bg-blue-400 dark:text-gray-900 font-semibold shadow hover:bg-blue-700 dark:hover:bg-blue-500 transition-colors text-center">Visit Website</a>
+                <a href="tel:2074854414" className="px-6 py-3 rounded-lg bg-green-600 text-white dark:bg-green-400 dark:text-gray-900 font-semibold shadow hover:bg-green-700 dark:hover:bg-green-500 transition-colors text-center">Call (207) 485-4414</a>
+              </div>
+              <p className="text-xs text-gray-500 dark:text-gray-400 mt-4 text-center">
+                <em>Note: Online payments may be temporarily disabled during website maintenance, but you can always call to order or ask questions.</em>
               </p>
-              <p className="text-xs text-gray-500 dark:text-gray-400 mt-6">
-                <em>Note: McCutcheon's Health Products is currently family-run and offers personalized service. Online payments may be temporarily disabled during website maintenance, but you can always call to order or ask questions.</em>
-              </p>
+              <hr className="my-8 border-blue-200 dark:border-blue-700" />
+              <div className="grid gap-6 md:grid-cols-2">
+                <blockquote className="italic text-gray-700 dark:text-gray-200 border-l-4 border-blue-400 pl-4 text-base bg-blue-50 dark:bg-blue-900/30 rounded-lg p-4">
+                  "I bought a necklace from you yesterday for my anxiety. I haven't slept this well in years and within an hour the tightness in my chest was gone."<br />
+                  <span className="text-sm text-gray-500 dark:text-gray-400">— Shannon T. (9/2022)</span>
+                </blockquote>
+                <blockquote className="italic text-gray-700 dark:text-gray-200 border-l-4 border-purple-400 pl-4 text-base bg-purple-50 dark:bg-purple-900/30 rounded-lg p-4">
+                  "Within minutes of wearing the ring, I felt a surge of energy and my moodiness from the heat went away. My husband is truly a changed man after struggling with ADHD and anxiety."<br />
+                  <span className="text-sm text-gray-500 dark:text-gray-400">— Jolyn (2024)</span>
+                </blockquote>
+                <blockquote className="italic text-gray-700 dark:text-gray-200 border-l-4 border-green-400 pl-4 text-base bg-green-50 dark:bg-green-900/30 rounded-lg p-4">
+                  "My dad bought the knee brace and instantly felt relief! My husband has severe anxiety and panic attacks, bought the necklace and it's changing his life."<br />
+                  <span className="text-sm text-gray-500 dark:text-gray-400">— Mel (2023)</span>
+                </blockquote>
+                <blockquote className="italic text-gray-700 dark:text-gray-200 border-l-4 border-pink-400 pl-4 text-base bg-pink-50 dark:bg-pink-900/30 rounded-lg p-4">
+                  "I am definitely calmer and more focused. I literally walked almost TWO MILES before I was hurting at all! ... The pain subsided by about 85% within MINUTES."<br />
+                  <span className="text-sm text-gray-500 dark:text-gray-400">— Lisa Moody (2022)</span>
+                </blockquote>
+                <blockquote className="italic text-gray-700 dark:text-gray-200 border-l-4 border-yellow-400 pl-4 text-base bg-yellow-50 dark:bg-yellow-900/30 rounded-lg p-4">
+                  "My back pain has been lessened and my balance improved."<br />
+                  <span className="text-sm text-gray-500 dark:text-gray-400">— Paul (2021)</span>
+                </blockquote>
+                <blockquote className="italic text-gray-700 dark:text-gray-200 border-l-4 border-gray-400 pl-4 text-base bg-gray-50 dark:bg-gray-800/30 rounded-lg p-4">
+                  "Within a week my husband's plantar fasciitis pain was gone. My knee was without pain. My arthritis pain is so manageable and the 'V' is almost gone."<br />
+                  <span className="text-sm text-gray-500 dark:text-gray-400">— Teresa & Wayne (2019)</span>
+                </blockquote>
+              </div>
             </div>
           </div>
         )}
@@ -662,9 +706,9 @@ const ResFreqAnalyzer = () => {
         )}
 
         <div className="mt-12 text-center">
-          <div className="bg-orange-50 dark:bg-orange-900/40 rounded-xl p-8 max-w-4xl mx-auto">
+          <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-8 max-w-4xl mx-auto dark:bg-gray-900/60 dark:border-gray-800">
             <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-100">Scientific Standards & Research Challenges</h3>
-            <p className="text-gray-700 dark:text-gray-200 mb-4">
+            <p className="text-yellow-800 dark:text-gray-300 mb-4">
               The field of bioelectromagnetics faces challenges in reproducibility and standardization. Results can vary due to differences in field intensity, frequency, exposure duration, and even water composition. Rigorous, well-controlled studies and transparent reporting are essential for advancing scientific understanding and product credibility.
             </p>
           </div>
