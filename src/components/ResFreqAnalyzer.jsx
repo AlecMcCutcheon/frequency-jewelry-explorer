@@ -403,7 +403,7 @@ const ResFreqAnalyzer = () => {
       {/* Hidden persistent audio element */}
       <audio
         ref={audioRef}
-        src={"/Audio/podcast.wav"}
+        src={`${import.meta.env.BASE_URL}Audio/podcast.wav`}
         preload="metadata"
         style={{ display: 'none' }}
       />
