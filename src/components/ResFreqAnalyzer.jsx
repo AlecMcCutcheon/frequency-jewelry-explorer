@@ -333,7 +333,7 @@ const ResFreqAnalyzer = () => {
           <div className="mt-4 p-4 bg-yellow-50 border border-yellow-200 rounded-lg max-w-4xl mx-auto dark:bg-gray-900/60 dark:border-gray-800">
             <p className="text-sm text-yellow-800 dark:text-gray-300">
               <strong className="text-yellow-800 dark:text-gray-300">Note:</strong> This analysis explores plausible mechanisms based on existing research. While in-house studies show promise, peer-reviewed clinical trials are needed for full scientific validation. <br className="hidden sm:block" />
-              <span className="block mt-2">This is an independent research report on the science and mechanisms behind resonant frequency jewelry. The author is not sponsored or paid by McCutcheon's Health Products, nor are there any legal ties to the company—only genuine support for their work.</span>
+              <span className="block mt-2">This is an independent research report on the plausible mechanisms behind resonant frequency jewelry. The author is not sponsored or paid by McCutcheon's Health Products, nor are there any legal ties to the company—only genuine support and interest in the science of their work and jewelry.</span>
             </p>
           </div>
         </div>
