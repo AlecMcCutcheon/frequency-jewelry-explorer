@@ -358,7 +358,7 @@ const ResFreqAnalyzer = () => {
         )}
 
         <div className="flex flex-wrap gap-4 justify-center mb-8">
-          {["overview", "mechanisms", "comparisons", "faq"].map((section) => (
+          {['overview', 'mechanisms', 'comparisons', 'faq', 'shop'].map((section) => (
             <button
               key={section}
               onClick={() => handleTabClick(section)}
@@ -368,10 +368,30 @@ const ResFreqAnalyzer = () => {
                   : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700'}
               `}
             >
-              {section.charAt(0).toUpperCase() + section.slice(1)}
+              {section === 'shop' ? 'Explore Jewelry' : section.charAt(0).toUpperCase() + section.slice(1)}
             </button>
           ))}
         </div>
+
+        {activeSection === 'shop' && (
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100">Explore Resonant Frequency Jewelry</h2>
+            <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8 mb-8 transition-colors">
+              <p className="text-lg text-gray-700 dark:text-gray-200 mb-4">
+                McCutcheon's Health Products is a family-owned company dedicated to helping people experience greater well-being and relief through the power of magnetic and resonant frequency jewelry. Their unique pieces are crafted with care and feature one of four proprietary resonant frequencies, designed to help balance and support your body's natural energy.
+              </p>
+              <p className="text-gray-700 dark:text-gray-300 mb-4">
+                Whether you're interested in bracelets, necklaces, anklets, or wellness accessories for sleep, pets, or your home, you can explore their full range of options online. Each product is designed to help protect you from the effects of modern environmental stressors and support a more balanced, energized life.
+              </p>
+              <p className="text-gray-700 dark:text-gray-300 mb-4">
+                <strong>Want to learn more or place an order?</strong> Visit their website at <a href="https://www.mccutcheonshealthproducts.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">mccutcheonshealthproducts.com</a> or call <a href="tel:2074854414" className="text-blue-600 dark:text-blue-400 underline">(207) 485-4414</a> for details about their jewelry and the four unique frequencies available.
+              </p>
+              <p className="text-xs text-gray-500 dark:text-gray-400 mt-6">
+                <em>Note: McCutcheon's Health Products is currently family-run and offers personalized service. Online payments may be temporarily disabled during website maintenance, but you can always call to order or ask questions.</em>
+              </p>
+            </div>
+          </div>
+        )}
 
         {activeSection === 'overview' && (
           <div className="max-w-4xl mx-auto">
